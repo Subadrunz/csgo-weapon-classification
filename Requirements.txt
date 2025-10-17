@@ -1,0 +1,39 @@
+Modul atau Library yang dibutuhkan untuk menjalankan kode dalam notebook ini:
+# CORE DATA PROCESSING
+numpy>=1.21.0
+pandas>=1.3.0
+
+# COMPUTER VISION & IMAGE PROCESSING
+opencv-python>=4.5.0
+Pillow>=8.0.0
+scikit-image>=0.18.0
+
+# MACHINE LEARNING
+scikit-learn>=1.0.0
+joblib>=1.0.0
+
+# DEEP LEARNING (untuk CNN features - meskipun disabled)
+torch>=1.9.0
+torchvision>=0.10.0
+
+# VISUALIZATION
+matplotlib>=3.3.0
+seaborn>=0.11.0
+
+# UTILITIES
+tqdm>=4.60.0
+
+# NOTE: Python version
+# Program tested with Python 3.8+
+
+📊 BREAKDOWN PENGGUNAAN SETIAP LIBRARY:
+Library	Digunakan Untuk
+opencv-python	Load gambar, resize, color conversion, Canny edges, Hu moments
+numpy	Array operations, matematika, processing data
+pandas	DataFrame untuk menyimpan features, CSV operations
+scikit-image	LBP, GLCM, HOG, texture features
+scikit-learn	StandardScaler, normalisasi, machine learning utilities
+matplotlib	Plotting, visualization hasil
+Pillow	Image loading untuk CNN features
+joblib	Save/load scaler model
+tqdm	Progress bar untuk monitoring
